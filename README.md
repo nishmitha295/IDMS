@@ -137,8 +137,5 @@ Frontend route guards to prevent unauthorized access
 Backend input validation and exception handling
 
 
-👩‍💻 Author
-Rana Ranveer Kumar Yadav
-Full Stack Developer
-🔗 GitHub Profile
+
 
