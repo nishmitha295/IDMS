@@ -46,41 +46,22 @@
 git clone https://github.com/nishmitha295/IDMS.git
 cd IDMS
 2. Backend Setup
-bash
-Copy
-Edit
+
 cd BackendNewWorkManagement
 Update application.properties:
-
-properties
-Copy
-Edit
 spring.datasource.url=jdbc:mysql://localhost:3306/idms
 spring.datasource.username=root
 spring.datasource.password=your_password
 Run the Spring Boot server:
-
-bash
-Copy
-Edit
 mvn spring-boot:run
 3. Frontend Setup
-bash
-Copy
-Edit
 cd ../NewIDMS-project
 npm install
 Create a .env.local file and set:
 
-env
-Copy
-Edit
 NEXT_PUBLIC_API_BASE_URL=http://localhost:8080/api
 Start the frontend development server:
 
-bash
-Copy
-Edit
 npm run dev
 🌐 API Endpoints (Sample)
 🔑 Authentication
@@ -113,9 +94,6 @@ POST /api/memo/send – Send memo to departments
 GET /api/memo/list – View all memos
 
 🧩 Project Structure
-bash
-Copy
-Edit
 IDMS/
 ├── BackendNewWorkManagement/   # Spring Boot backend
 │   ├── src/
